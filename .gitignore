@@ -1,9 +1,10 @@
-### IDEA ###
+gity### IDEA ###
 .idea/*
 *.iml
 */target/*
 */*.iml
 */node_modules/*
+target
 
 # Compiled class file
 *.class

@@ -38,13 +38,6 @@
             <version>1.0.0</version>
         </dependency>
 
-        <!-- oneManage test 微服务调用api二方包 -->
-        <dependency>
-            <groupId>com.oym</groupId>
-            <artifactId>oneManage-test-api</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
     </dependencies>
 
     <build>
