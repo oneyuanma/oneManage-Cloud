@@ -1,6 +1,6 @@
 # oneManage-Cloud 后台管理系统
 
-####  :tw-1f4cb: 项目介绍
+##  :tw-1f4cb: 项目介绍
 oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后端分离的后台管理框架，可以作为SpringCloud和vue的入门学习框架，亦可以作为一个基础脚手架进行二次开发。
 
 ####  :tw-1f4fa: 系统演示
