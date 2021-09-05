@@ -1,0 +1,38 @@
+# port
+server:
+  port: 5002
+
+# ES 配置
+elasticsearch:
+  enabled: true
+  host: 1.15.184.186:9200
+  username:
+  password:
+
+## swagger
+swagger:
+  basePackage: com.oym.log.ctrl
+  title: oneManage-log RESTful APIs
+  description: 系统日志功能api文档
+  version: 1.0.1
+
+spring:
+  boot:
+    admin:
+      client:
+        # 即 admin server 的地址
+        url: http://localhost:9091
+        instance:
+          #默认使用的是主机名注册，改为使用ip注册
+          prefer-ip: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #开放所有页面节点  默认只开启了health、info两个节点
+        include: '*'
+  endpoint:
+    health:
+      #显示健康具体信息  默认不会显示详细信息
+      show-details: always

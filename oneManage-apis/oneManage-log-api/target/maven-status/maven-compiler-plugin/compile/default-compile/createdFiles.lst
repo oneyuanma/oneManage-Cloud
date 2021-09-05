@@ -1,0 +1,3 @@
+com/oym/log/api/LogApi.class
+com/oym/log/api/domain/request/LogLoginSaveRequest.class
+com/oym/log/api/domain/request/LogOperateSaveRequest.class

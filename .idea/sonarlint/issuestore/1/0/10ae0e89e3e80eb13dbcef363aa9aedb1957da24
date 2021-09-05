@@ -1,0 +1,13 @@
+
+Q
+java:S1066-"/Merge this if statement with the enclosing one.(äÊåîùÿÿÿÿ8£ÿ…Ğ«/
+S
+java:S2692-"10 is a valid index, but is ignored by this check.(äÊåîùÿÿÿÿ8£ÿ…Ğ«/
+d
+java:S2259)"BA "NullPointerException" could be thrown; "inet" is nullable here.(¾¤¿‹üÿÿÿÿ8©†Ğ«/
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ŞÓ¬Ø8£ÿ…Ğ«/
+h
+java:S11928"KDefine a constant instead of duplicating this literal "User-Agent" 3 times.(¦ŠÖ®8£ÿ…Ğ«/
+j
+java:S1192"HDefine a constant instead of duplicating this literal "unknown" 3 times.(ÚÜ­ãıÿÿÿÿ8£ÿ…Ğ«/

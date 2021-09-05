@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oym.system.dao.UserDao">
+    <resultMap id="BaseResultMap" type="com.oym.system.domain.dataobject.UserDO">
+        <result column="id" jdbcType="BIGINT" property="id" javaType="java.lang.Long"/>
+        <result column="username" jdbcType="VARCHAR" property="username" javaType="java.lang.String"/>
+        <result column="nick_name" jdbcType="VARCHAR" property="nickName" javaType="java.lang.String"/>
+        <result column="password" jdbcType="VARCHAR" property="password" javaType="java.lang.String"/>
+        <result column="email" jdbcType="VARCHAR" property="email" javaType="java.lang.String"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone" javaType="java.lang.String"/>
+        <result column="sex" jdbcType="VARCHAR" property="sex" javaType="java.lang.String"/>
+        <result column="status" jdbcType="VARCHAR" property="status" javaType="java.lang.String"/>
+        <result column="del_flag" jdbcType="VARCHAR" property="delFlag" javaType="java.lang.String"/>
+        <result column="remarks" jdbcType="VARCHAR" property="remarks" javaType="java.lang.String"/>
+        <result column="create_date" jdbcType="TIMESTAMP" property="createDate" javaType="java.time.LocalDateTime"/>
+        <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" javaType="java.time.LocalDateTime"/>
+        <result column="now_login_time" jdbcType="TIMESTAMP" property="nowLoginTime" javaType="java.time.LocalDateTime"/>
+        <result column="last_login_time" jdbcType="TIMESTAMP" property="lastLoginTime" javaType="java.time.LocalDateTime"/>
+        <result column="now_login_ip" jdbcType="VARCHAR" property="nowLoginIp" javaType="java.lang.String"/>
+        <result column="last_login_ip" jdbcType="VARCHAR" property="lastLoginIp" javaType="java.lang.String"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        create_date
+        , update_date, remarks, del_flag, id, username, nick_name, password, email, phone, sex, status, now_login_time, last_login_time, now_login_ip, last_login_ip
+    </sql>
+
+    <!-- 查询条件语句  -->
+    <sql id="where_fragment">
+        <where>
+            1 = 1
+            <if test="createDate != null">
+                AND create_date = #{createDate}
+            </if>
+            <if test="id != null and id != ''">
+                AND id = #{id}
+            </if>
+            <if test="username != null and username != ''">
+                <bind name="username" value="'%' + username + '%'"/>
+                AND username like #{username}
+            </if>
+            <if test="nickName != null and nickName != ''">
+                <bind name="nickName" value="'%' + nickName + '%'"/>
+                AND nick_name like #{nickName}
+            </if>
+
+            <if test="phone != null">
+                AND phone = #{phone}
+            </if>
+            <if test="email != null">
+                AND email = #{email}
+            </if>
+            <if test="sex != null">
+                AND sex = #{sex}
+            </if>
+            AND del_flag = 0
+        </where>
+    </sql>
+
+
+    <!-- 分页查询 -->
+    <select id="list" parameterType="com.oym.system.domain.dataobject.UserDO" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM
+        sys_user
+        <!-- 查询条件 -->
+        <include refid="where_fragment"/>
+    </select>
+
+    <select id="getUserByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+        select id,
+               username,
+               password,
+               nick_name,
+               email,
+               phone,
+               sex,
+               last_login_ip,
+               last_login_time
+        from sys_user
+        where username = #{username}
+    </select>
+
+    <select id="getCountByName" parameterType="java.lang.String" resultType="Integer">
+        select count(1)
+        from sys_user
+        where username = #{username}
+    </select>
+</mapper>

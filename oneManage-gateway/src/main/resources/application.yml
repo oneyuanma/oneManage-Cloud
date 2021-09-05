@@ -1,0 +1,90 @@
+# port
+server:
+  port: 5000
+
+# 标识sentinel控制台的类型为网关
+csp:
+  sentinel:
+    app:
+      type: 1
+
+url:
+  form:
+    # 免登url
+    neededLoginUrl:
+      - /auth/login
+      - /doc.html
+      - /swagger-resources
+      - /v2/api-docs
+      - /webjars/bycdao-ui/**
+    # 不用验证权限url
+    notPermission:
+      - /auth/login
+      - /doc.html
+      - /swagger-resources
+      - /v2/api-docs
+      - /webjars/bycdao-ui/**
+
+# Spring
+spring:
+  boot:
+    admin:
+      client:
+        # 即 admin server 的地址
+        url: http://localhost:9091
+        instance:
+          #默认使用的是主机名注册，改为使用ip注册
+          prefer-ip: true
+  cloud:
+    sentinel:
+      transport:
+        # sentinel 控制台地址
+        dashboard: localhost:8084
+    gateway:
+      #路由配置
+      routes:
+        - id: oneManage-auth
+          uri: lb://oneManage-auth
+          predicates:
+            - Path=/oneManage-auth/**
+          filters:
+            - StripPrefix=1
+
+        - id: oneManage-system
+          uri: lb://oneManage-system
+          predicates:
+            - Path=/oneManage-system/**
+          filters:
+            - StripPrefix=1
+
+        - id: oneManage-log
+          uri: lb://oneManage-log
+          predicates:
+            - Path=/oneManage-log/**
+          filters:
+            - StripPrefix=1
+
+        - id: oneManage-quartz
+          uri: lb://oneManage-quartz
+          predicates:
+            - Path=/oneManage-quartz/**
+          filters:
+            - StripPrefix=1
+
+        - id: oneManage-generate
+          uri: lb://oneManage-generate
+          predicates:
+            - Path=/oneManage-generate/**
+          filters:
+            - StripPrefix=1
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #开放所有页面节点  默认只开启了health、info两个节点
+        include: '*'
+  endpoint:
+    health:
+      #显示健康具体信息  默认不会显示详细信息
+      show-details: always

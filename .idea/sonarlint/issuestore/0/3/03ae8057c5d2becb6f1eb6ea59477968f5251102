@@ -1,0 +1,21 @@
+
+F
+java:S1066Ψ"/Merge this if statement with the enclosing one.(Ϋ§±Τ
+E
+java:S1066θ"/Merge this if statement with the enclosing one.(¦ΐΘC
+h
+java:S37766"RRefactor this method to reduce its Cognitive Complexity from 62 to the 15 allowed.(‘ϋ 
+i
+java:S3776Ώ"RRefactor this method to reduce its Cognitive Complexity from 71 to the 15 allowed.(Α·«
+?
+java:S1905")Remove this unnecessary cast to "String".(τμa
+W
+java:S1119£";Refactor the code to remove this label and the need for it.(™Ιώÿÿÿÿ
+F
+java:S1066¨"/Merge this if statement with the enclosing one.(ώτήέ
+W
+java:S1119”";Refactor the code to remove this label and the need for it.(™Ιώÿÿÿÿ
+F
+java:S1066ύ"/Merge this if statement with the enclosing one.(ψ“Ώ‘
+@
+java:S1905—")Remove this unnecessary cast to "String".(Λ»ύ

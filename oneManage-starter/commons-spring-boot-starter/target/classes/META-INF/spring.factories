@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.oym.commons.config.ParseUserAutoConfiguration,\
+  com.oym.commons.base.handler.OymMetaObjectHandler
+
+
+#启用我们的自定义环境处理类
+org.springframework.boot.env.EnvironmentPostProcessor=com.oym.commons.config.OymEnvironmentPostProcessor

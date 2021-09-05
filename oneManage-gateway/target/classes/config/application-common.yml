@@ -1,0 +1,5 @@
+# logback 配置
+logging:
+  config: classpath:logback-spring.xml
+log:
+  path: /Users/jinjing/code/IdeaProjects/oneyuanma/oneManage-Cloud/logs

@@ -1,0 +1,52 @@
+
+z
+java:S1149X"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì›Þ©ùÿÿÿÿ
+\	java:S112Ò"FDefine and throw a dedicated exception instead of using a generic one.(­Èñ˜
+B
+java:S1612ñ",Replace this lambda with a method reference.(“•ßM
+[	java:S112W"FDefine and throw a dedicated exception instead of using a generic one.(Õïˆ£
+C
+java:S1612ô",Replace this lambda with a method reference.(‚¸Ô¦
+Q	java:S125~"<This block of commented-out lines of code should be removed.(¸°æç
+i
+java:S1192ž"RDefine a constant instead of duplicating this literal " ,\"fields\": {\n" 3 times.(§ºÌ
+\	java:S112´"FDefine and throw a dedicated exception instead of using a generic one.(­Èñ˜
+a	java:S112Ì"FDefine and throw a dedicated exception instead of using a generic one.(ÞÄÝ¬øÿÿÿÿ
+c
+java:S1192h"HDefine a constant instead of duplicating this literal "keyword" 4 times.(¶ß¿›ÿÿÿÿÿ
+]
+java:S2259ô"FA "NullPointerException" could be thrown; "settings" is nullable here.(‚¸Ô¦
+[
+java:S1192{"FDefine a constant instead of duplicating this literal " },\n" 3 times.(íƒ—%
+h
+java:S3776W"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(Õïˆ£
+z
+java:S1488Ï"^Immediately return this expression instead of assigning it to the temporary variable "exists".(Ê»Î’üÿÿÿÿ
+\	java:S112"FDefine and throw a dedicated exception instead of using a generic one.( ¤ð¨
+[	java:S112:"FDefine and throw a dedicated exception instead of using a generic one.(°ÜßØ
+E
+java:S3740W"/Provide the parametrized type for this generic.(Õïˆ£
+@
+java:S2629Ž"$Invoke method(s) only conditionally.(¶¹¬üÿÿÿÿ
+S
+java:S2629ý"7Use the built-in formatting to construct this argument.(Ô×çÿÿÿÿÿ
+]
+java:S3457ý"AFormat specifiers should be used instead of string concatenation.(Ô×çÿÿÿÿÿ
+c
+java:S1192Z"HDefine a constant instead of duplicating this literal "\": {\n" 3 times.(¼ ¤…ÿÿÿÿÿ
+a	java:S112®"FDefine and throw a dedicated exception instead of using a generic one.(ÞÄÝ¬øÿÿÿÿ
+Y
+java:S2629K"7Use the built-in formatting to construct this argument.(öí†µýÿÿÿÿ8¨¦Ü¡­/
+c	java:S112û"FDefine and throw a dedicated exception instead of using a generic one.(èÍÚ8¨¦Ü¡­/
+c
+java:S3457K"AFormat specifiers should be used instead of string concatenation.(öí†µýÿÿÿÿ8¨¦Ü¡­/
+[
+java:S3878š"8Remove this array creation and simply pass the elements.(ÌÆ­Çøÿÿÿÿ8¨¦Ü¡­/
+d
+java:S3457Ã"AFormat specifiers should be used instead of string concatenation.(²£†ùùÿÿÿÿ8¨¦Ü¡­/
+d
+java:S3457Ø"AFormat specifiers should be used instead of string concatenation.(÷ž˜Ëùÿÿÿÿ8¨¦Ü¡­/
+d
+java:S3457ç"AFormat specifiers should be used instead of string concatenation.(Í–—†ýÿÿÿÿ8¨¦Ü¡­/
+9
+java:S3626Ú"Remove this redundant jump.(ûÁÝ…8¨¦Ü¡­/

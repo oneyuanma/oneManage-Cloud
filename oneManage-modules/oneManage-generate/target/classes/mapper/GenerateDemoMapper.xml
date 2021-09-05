@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.oym.generate.dao.GenerateDemoDao">
+    <resultMap id="BaseResultMap" type="com.oym.generate.domain.dataobject.GenerateDemoDO">
+        <result column="id" jdbcType="BIGINT" property="id" javaType="java.lang.Long"/>
+        <result column="status" jdbcType="VARCHAR" property="status" javaType="java.lang.String"/>
+        <result column="del_flag" jdbcType="VARCHAR" property="delFlag" javaType="java.lang.String"/>
+        <result column="remarks" jdbcType="VARCHAR" property="remarks" javaType="java.lang.String"/>
+        <result column="create_date" jdbcType="TIMESTAMP" property="createDate" javaType="java.time.LocalDateTime"/>
+        <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" javaType="java.time.LocalDateTime"/>
+        <result column="description" jdbcType="VARCHAR" property="description" javaType="java.lang.String"/>
+        <result column="time" jdbcType="VARCHAR" property="time" javaType="java.lang.String"/>
+        <result column="title" jdbcType="VARCHAR" property="title" javaType="java.lang.String"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        create_date, update_date, remarks, del_flag, id ,description,time,title
+    </sql>
+
+    <!-- 查询条件语句  -->
+    <sql id="where_fragment">
+        <where>
+            1 = 1
+            <if test="createDate != null">
+                AND create_date = #{createDate}
+            </if>
+            <if test="id != null and id != ''">
+                AND id = #{id}
+            </if>
+            <if test="description != null and description != ''">
+                AND description = #{description}
+            </if>
+            <if test="time != null and time != ''">
+                AND time = #{time}
+            </if>
+            <if test="title != null and title != ''">
+                AND title = #{title}
+            </if>
+            AND del_flag = 0
+        </where>
+    </sql>
+
+    <!-- 分页查询 -->
+    <select id="list" parameterType="com.oym.generate.domain.dataobject.GenerateDemoDO" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List"/>
+        FROM
+        generate_demo
+        <!-- 查询条件 -->
+        <include refid="where_fragment"/>
+    </select>
+
+</mapper>

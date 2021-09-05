@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/oneManage-apis/oneManage-log-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-apis/oneManage-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-generate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-generate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-log/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-log/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-quartz/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-quartz/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-modules/oneManage-system/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/commons-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/commons-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/es-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/kafka-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/microservice-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/microservice-spring-boot-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/redis-spring-boot-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oneManage-starter/redis-spring-boot-starter/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

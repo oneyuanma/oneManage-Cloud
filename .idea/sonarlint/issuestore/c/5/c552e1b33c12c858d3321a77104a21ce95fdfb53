@@ -1,0 +1,11 @@
+
+_
+java:S1854 "<Remove this useless assignment to local variable "pageList".(›ÏµÌÿÿÿÿÿ8…øó­/
+J
+java:S1602Š",Remove useless curly braces around statement(“ÿÇó8Áæó­/
+Q
+java:S3740;"/Provide the parametrized type for this generic.(õ°½Òûÿÿÿÿ8ª¸Øö¬/
+P
+java:S1481 "-Remove this unused "pageList" local variable.(›ÏµÌÿÿÿÿÿ8…øó­/
+h
+java:S1192O"KUse already-defined constant 'KAFKA' instead of duplicating its value here.(‹ŠÄŒ8Åá™ó­/

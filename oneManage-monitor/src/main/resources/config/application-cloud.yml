@@ -1,0 +1,46 @@
+# druid-admin 需要监控的列表
+monitor:
+  applications:
+    - oneManage-system
+# Spring Cloud 微服务注册
+spring:
+
+  cloud:
+    # 微服务相关配置
+    consul:
+      host: 1.15.184.186
+      port: 8500
+      discovery:
+        tags: oym
+        default-query-tag: oym
+        service-name: ${spring.application.name}
+        heartbeat:
+          enabled: true
+        # 启用服务发现
+        enabled: true
+        # 启用服务注册
+        register: true
+        # 服务停止时取消注册
+        deregister: true
+        # 表示注册时使用IP而不是hostname
+        prefer-ip-address: true
+        # 执行监控检查的频率
+        health-check-interval: 30s
+        # 设置健康检查失败多长时间后，取消注册
+        health-check-critical-timeout: 30s
+        # 健康检查的路径
+        health-check-path: /actuator/health
+        # 服务注册标识，格式为：应用名称+服务器IP+端口
+        instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
+ribbon:
+  # 对所有操作请求都进行重试,默认false
+  OkToRetryOnAllOperations: false
+  # 负载均衡超时时间，默认值5000
+  ReadTimeout: 60000
+  # ribbon请求连接的超时时间，默认值2000
+  ConnectTimeout: 3000
+  # 对当前实例的重试次数，默认0
+  MaxAutoRetries: 1
+  # 对切换实例的重试次数，默认1
+  MaxAutoRetriesNextServer: 1

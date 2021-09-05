@@ -1,0 +1,176 @@
+
+M
+java:S3740"/Provide the parametrized type for this generic.(œç¥è8ãÒµ­/
+^	java:S125¦"<This block of commented-out lines of code should be removed.(­¬×ùÿÿÿÿ8ãÒµ­/
+R
+java:S3740è"/Provide the parametrized type for this generic.(‹âËÓùÿÿÿÿ8ãÒµ­/
+J
+java:S3011Ú",This accessibility update should be removed.(˜ÂÓ˜8ãÒµ­/
+F
+java:S1125"(Remove the literal "true" boolean value.(ÍÕ 8ãÒµ­/
+h	java:S112ı"FDefine and throw a dedicated exception instead of using a generic one.(ø·›ÿÿÿÿÿ8ãÒµ­/
+L
+java:S1481ù".Remove this unused "indextype" local variable.(éŒêÒ8ãÒµ­/
+G
+java:S2629²"$Invoke method(s) only conditionally.(œ™ÜËøÿÿÿÿ8ãÒµ­/
+D
+java:S1168£"&Return an empty array instead of null.(¥¹ï8ãÒµ­/
+u
+java:S3776Â
+"RRefactor this method to reduce its Cognitive Complexity from 52 to the 15 allowed.(‚ùœêøÿÿÿÿ8ãÒµ­/
+g
+java:S1192¬"IDefine a constant instead of duplicating this literal "suggest_" 4 times.( ëÎ“8ãÒµ­/
+a
+java:S1155¢">Use isEmpty() to check whether the collection is empty or not.(â×—˜ÿÿÿÿÿ8ãÒµ­/
+Y	java:S125Ã	"<This block of commented-out lines of code should be removed.(Ì»Òµ8ãÒµ­/
+h	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(‘µÔùÿÿÿÿ8ãÒµ­/
+_
+java:S1126"AReplace this if-then-else statement by a single return statement.(Í¼êÕ8ãÒµ­/
+h	java:S112æ"FDefine and throw a dedicated exception instead of using a generic one.(àÈëÃûÿÿÿÿ8ãÒµ­/
+Y	java:S125‚	"<This block of commented-out lines of code should be removed.(Äõß8ãÒµ­/
+G
+java:S2629à"$Invoke method(s) only conditionally.(œ™ÜËøÿÿÿÿ8ãÒµ­/
+s	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üôÿ¼üÿÿÿÿ8ãÒµ­/
+^	java:S125ü"<This block of commented-out lines of code should be removed.(“úõ‰ıÿÿÿÿ8ãÒµ­/
+^	java:S125×"<This block of commented-out lines of code should be removed.(ŠæÊéùÿÿÿÿ8ãÒµ­/
+‡
+java:S1488¸"dImmediately return this expression instead of assigning it to the temporary variable "bulkResponse".(À×¥ûÿÿÿÿ8ãÒµ­/
+O
+java:S1602£",Remove useless curly braces around statement(«ñë×ùÿÿÿÿ8ãÒµ­/
+s	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«Ğéüÿÿÿÿ8ãÒµ­/
+I
+java:S1168ä"+Return an empty collection instead of null.(¥¹ï8ãÒµ­/
+K
+java:S1481å"-Remove this unused "metaData" local variable.(‹‹å‰8ø¡Óµ­/
+‰
+java:S1192Ê"kDefine a constant instead of duplicating this literal "nestedå¯¹è±¡æ›´æ–°ï¼Œè¯·ä½¿ç”¨è¦†ç›–æ›´æ–°" 4 times.(¸Ï–ñ8ãÒµ­/
+v
+java:S1192ù"SDefine a constant instead of duplicating this literal "ID cannot be empty" 5 times.(›Œ”ùÿÿÿÿ8ãÒµ­/
+h	java:S112ù"FDefine and throw a dedicated exception instead of using a generic one.(›Œ”ùÿÿÿÿ8ãÒµ­/
+h	java:S112õ"FDefine and throw a dedicated exception instead of using a generic one.(›Œ”ùÿÿÿÿ8ãÒµ­/
+Y	java:S125Ì"<This block of commented-out lines of code should be removed.(¦®ĞÙ8ãÒµ­/
+^	java:S125·"<This block of commented-out lines of code should be removed.(Ş±»İşÿÿÿÿ8ãÒµ­/
+O
+java:S3011ö",This accessibility bypass should be removed.(Ş„£ùùÿÿÿÿ8ãÒµ­/
+‚
+java:S1488ä"dImmediately return this expression instead of assigning it to the temporary variable "bulkResponse".(ªª—Æ8ãÒµ­/
+l
+java:S1192Ğ"NDefine a constant instead of duplicating this literal "/_sql?format=" 3 times.(¯ÆÁÈ8ãÒµ­/
+n	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔØ×Ü8ãÒµ­/
+ƒ
+java:S1488"`Immediately return this expression instead of assigning it to the temporary variable "response".(·™°Şúÿÿÿÿ8ãÒµ­/
+N
+java:S2629¬"7Use the built-in formatting to construct this argument.(¯™Ü
+_
+java:S3457Ñ"AFormat specifiers should be used instead of string concatenation.(©¥–8ãÒµ­/
+^	java:S125¹"<This block of commented-out lines of code should be removed.(¢¬óıÿÿÿÿ8ãÒµ­/
+O
+java:S1854¦"8Remove this useless assignment to local variable "list".(–×ËÑ
+h	java:S112ú"FDefine and throw a dedicated exception instead of using a generic one.(¶‰ÍÉıÿÿÿÿ8ãÒµ­/
+c	java:S112•"FDefine and throw a dedicated exception instead of using a generic one.(¸Ï–ñ8ãÒµ­/
+c	java:S112ü"FDefine and throw a dedicated exception instead of using a generic one.(¸Ï–ñ8ãÒµ­/
+Y	java:S125ƒ"<This block of commented-out lines of code should be removed.(¤³çõ8ãÒµ­/
+X	java:S125K"<This block of commented-out lines of code should be removed.(«ÕãŸ8ãÒµ­/
+Y	java:S125º"<This block of commented-out lines of code should be removed.(£±ğº8ãÒµ­/
+Z
+java:S2629«"7Use the built-in formatting to construct this argument.(…éŸèøÿÿÿÿ8ãÒµ­/
+b	java:S112°"FDefine and throw a dedicated exception instead of using a generic one.(‘Øğb8ãÒµ­/
+„
+java:S1488‡"fImmediately return this expression instead of assigning it to the temporary variable "scrollResponse".(µñÚï8ãÒµ­/
+Y	java:S125–"<This block of commented-out lines of code should be removed.(ÑŞ£ô8ãÒµ­/
+J
+java:S3011ô",This accessibility update should be removed.(˜ÂÓ˜8ãÒµ­/
+c	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(¶™ˆ8ãÒµ­/
+{
+java:S1488ë"]Immediately return this expression instead of assigning it to the temporary variable "count".(ıÙ¼¾8ø¡Óµ­/
+s	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶™ºÿıÿÿÿÿ8ãÒµ­/
+^	java:S125¼"<This block of commented-out lines of code should be removed.(í’òËÿÿÿÿÿ8ãÒµ­/
+ƒ
+java:S3252é"`Use static access with "org.elasticsearch.search.suggest.Suggest$Suggestion$Entry" for "Option".(åÌáÆúÿÿÿÿ8ãÒµ­/
+Y	java:S125Ê	"<This block of commented-out lines of code should be removed.(Íƒ¾›8ãÒµ­/
+d
+java:S3457«"AFormat specifiers should be used instead of string concatenation.(…éŸèøÿÿÿÿ8ãÒµ­/
+^	java:S125û"<This block of commented-out lines of code should be removed.(ÆÆÔŒşÿÿÿÿ8ãÒµ­/
+Q
+java:S1874ì"3Remove this use of "newInstance"; it is deprecated.(Ÿõ¤æ8ãÒµ­/
+L
+java:S3740±"/Provide the parametrized type for this generic.(ÜÇÛ"8ãÒµ­/
+O
+java:S1612ˆ",Replace this lambda with a method reference.(«ñë×ùÿÿÿÿ8ãÒµ­/
+X
+java:S3457¬"AFormat specifiers should be used instead of string concatenation.(¯™Ü
+h	java:S112è"FDefine and throw a dedicated exception instead of using a generic one.(‹âËÓùÿÿÿÿ8ãÒµ­/
+}
+java:S1488l"`Immediately return this expression instead of assigning it to the temporary variable "response".(”¨Ï™8ãÒµ­/
+„
+java:S1488¸"fImmediately return this expression instead of assigning it to the temporary variable "scriptResponse".(îâı˜8ãÒµ­/
+Z
+java:S1854å"<Remove this useless assignment to local variable "metaData".(‹‹å‰8ø¡Óµ­/
+c	java:S112œ"FDefine and throw a dedicated exception instead of using a generic one.(Ÿ“©ğ8ãÒµ­/
+h	java:S112Î"FDefine and throw a dedicated exception instead of using a generic one.(›Œ”ùÿÿÿÿ8ãÒµ­/
+D
+java:S1168Õ"&Return an empty array instead of null.(¥¹ï8ãÒµ­/
+[
+java:S1854ù"=Remove this useless assignment to local variable "indextype".(éŒêÒ8ãÒµ­/
+O
+java:S3011ß",This accessibility bypass should be removed.(¡ºŠˆÿÿÿÿÿ8ãÒµ­/
+R
+java:S3740Â"/Provide the parametrized type for this generic.(Áãá•úÿÿÿÿ8ãÒµ­/
+Y	java:S125î"<This block of commented-out lines of code should be removed.(¢­Åä8ãÒµ­/
+h	java:S112–
+"FDefine and throw a dedicated exception instead of using a generic one.(›Œ”ùÿÿÿÿ8ãÒµ­/
+U
+java:S2629Ñ"7Use the built-in formatting to construct this argument.(©¥–8ãÒµ­/
+I
+java:S1168"+Return an empty collection instead of null.(¥¹ï8ãÒµ­/
+I
+java:S1168³"+Return an empty collection instead of null.(¥¹ï8ãÒµ­/
+e
+java:S1192Ñ"NDefine a constant instead of duplicating this literal "{\"query\":\"" 3 times.(©¥–
+n	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼µïÙ8ÑÛ¡­/
+w	java:S115ç"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‡Ê™œ8ãÒµ­/
+V
+java:S1874²"3Remove this use of "newInstance"; it is deprecated.(á“çÿÿÿÿÿÿ8ãÒµ­/
+n	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼šé”8ãÒµ­/
+L
+java:S1905²")Remove this unnecessary cast to "Object".(á“çÿÿÿÿÿÿ8ãÒµ­/
+R
+java:S3740Ê"/Provide the parametrized type for this generic.(«Ğéüÿÿÿÿ8ãÒµ­/
+@
+java:S1481¦")Remove this unused "list" local variable.(–×ËÑ
+c	java:S112Ê"FDefine and throw a dedicated exception instead of using a generic one.(¸Ï–ñ8ãÒµ­/
+M
+java:S3740³"/Provide the parametrized type for this generic.(ÒÒ½½8ãÒµ­/
+X	java:S125¹"<This block of commented-out lines of code should be removed.(—«‹m8ãÒµ­/
+O
+java:S3011Ô",This accessibility bypass should be removed.(¡ºŠˆÿÿÿÿÿ8ãÒµ­/
+O
+java:S1602ˆ",Remove useless curly braces around statement(«ñë×ùÿÿÿÿ8ãÒµ­/
+‰
+java:S1488ë"fImmediately return this expression instead of assigning it to the temporary variable "searchResponse".(Ãá§ûÿÿÿÿ8ãÒµ­/
+O
+java:S1612£",Replace this lambda with a method reference.(«ñë×ùÿÿÿÿ8ãÒµ­/
+G
+java:S2629œ"$Invoke method(s) only conditionally.(œ™ÜËøÿÿÿÿ8ãÒµ­/
+R
+java:S3740Â"/Provide the parametrized type for this generic.(Áãá•úÿÿÿÿ8ãÒµ­/
+^	java:S125•"<This block of commented-out lines of code should be removed.(¢¨‹Ëùÿÿÿÿ8ãÒµ­/
+Y	java:S125"<This block of commented-out lines of code should be removed.(äš…‹8ãÒµ­/
+‡
+java:S1488î"dImmediately return this expression instead of assigning it to the temporary variable "bulkResponse".(À×¥ûÿÿÿÿ8ãÒµ­/
+h	java:S112š"FDefine and throw a dedicated exception instead of using a generic one.(›Œ”ùÿÿÿÿ8ãÒµ­/
+a
+java:S1155–">Use isEmpty() to check whether the collection is empty or not.(â×—˜ÿÿÿÿÿ8ãÒµ­/
+Y	java:S125ç"<This block of commented-out lines of code should be removed.(ï»Õ8ãÒµ­/
+^	java:S125­"<This block of commented-out lines of code should be removed.(¼¾ºóúÿÿÿÿ8ãÒµ­/
+J
+java:S3011Ñ",This accessibility update should be removed.(˜ÂÓ˜8ãÒµ­/
+a
+java:S1155Å">Use isEmpty() to check whether the collection is empty or not.(â×—˜ÿÿÿÿÿ8ãÒµ­/
+G
+java:S2629‚"$Invoke method(s) only conditionally.(œ™ÜËøÿÿÿÿ8ãÒµ­/
+a
+java:S1155Ô">Use isEmpty() to check whether the collection is empty or not.(â×—˜ÿÿÿÿÿ8ãÒµ­/
+c	java:S112Ù"FDefine and throw a dedicated exception instead of using a generic one.(¸Ï–ñ8ãÒµ­/
+„
+java:S1488ô"fImmediately return this expression instead of assigning it to the temporary variable "scrollResponse".(µñÚï8ãÒµ­/

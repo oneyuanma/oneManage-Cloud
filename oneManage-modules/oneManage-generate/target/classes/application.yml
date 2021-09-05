@@ -1,0 +1,41 @@
+# port
+server:
+  port: 5004
+
+# swagger
+swagger:
+  basePackage: com.oym.system.ctrl
+  title: oneManage-generate RESTful APIs
+  description: 系统代码生成功能api文档
+  version: 1.0.1
+
+# 表同步默认配置
+generate:
+  config:
+    # 作者
+    author: oneyuanma
+    # 生成路径
+    generatePath: /Users/jinjing/ONE源码/code
+    # 系统默认字段, 不用生成的字段
+    sysDefaultColumn: id,create_date,update_date,remarks,del_flag
+
+spring:
+  boot:
+    admin:
+      client:
+        # 即 admin server 的地址
+        url: http://localhost:9091
+        instance:
+          #默认使用的是主机名注册，改为使用ip注册
+          prefer-ip: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        #开放所有页面节点  默认只开启了health、info两个节点
+        include: '*'
+  endpoint:
+    health:
+      #显示健康具体信息  默认不会显示详细信息
+      show-details: always

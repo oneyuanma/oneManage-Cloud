@@ -1,0 +1,8 @@
+
+W
+java:S11262"AReplace this if-then-else statement by a single return statement.(þÃÓž
+E
+java:S3740 "/Provide the parametrized type for this generic.(ËëÉ²
+‰
+java:S1130G"sRemove the declaration of thrown exception 'org.springframework.beans.BeansException' which is a runtime exception.(¯¶…œ
+]	java:S125="<This block of commented-out lines of code should be removed.(®¸žýÿÿÿÿ8ÛÐñ ­/

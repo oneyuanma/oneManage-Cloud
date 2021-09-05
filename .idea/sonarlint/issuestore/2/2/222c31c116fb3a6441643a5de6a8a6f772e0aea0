@@ -1,0 +1,14 @@
+
+J
+java:S1066C"/Merge this if statement with the enclosing one.(Ý®”Îüÿÿÿÿ
+e
+java:S2259X"OA "NullPointerException" could be thrown; "getRemoteAddress()" can return null.(ã· ¶
+V	java:S1257"<This block of commented-out lines of code should be removed.(ûâÃÓÿÿÿÿÿ
+m
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ÑÉ·—øÿÿÿÿ
+@
+java:S1068"*Remove this unused "logger" private field.(¡¿¬¼
+D
+java:S1068".Remove this unused "USER_TOKEN" private field.(žÜ“µ
+B
+java:S1068",Remove this unused "response" private field.(æ—Ìº
