@@ -1,14 +1,0 @@
-
-I
-java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
-J
-java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚÞ
-B
-java:S1128"-Remove this unused import 'org.slf4j.Logger'.(íØ®6
-E
-java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ
-A
-java:S1128
-"+Remove this unused import 'java.util.Date'.(¸…¼ü
-U
-java:S1118":Add a private constructor to hide the implicit public one.(ôÖ®¬ùÿÿÿÿ
