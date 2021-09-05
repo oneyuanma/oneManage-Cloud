@@ -1,10 +1,10 @@
 gity### IDEA ###
 .idea/*
 *.iml
-*/target/*
 */*.iml
 */node_modules/*
 target
+.DS_Store
 
 # Compiled class file
 *.class
