@@ -66,4 +66,17 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 ####  :tw-1f4f7: 系统截图
 
 
-![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255351630941777.jpg "在这里输入图片标题")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255351630941777.jpg "登录页面")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255361630941777_.pic_hd.jpg "首页")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255371630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255381630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255391630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255401630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255411630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255421630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255421630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255441630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255451630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255461630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255471630941777_.pic_hd.jpg "功能截图")
+![输入图片说明](https://bj.bcebos.com/v1/oym-img/oneManage/项目截图/255471630941777_.pic_hd.jpg "功能截图")
