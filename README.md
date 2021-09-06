@@ -30,10 +30,27 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 
 ####  :tw-1f4a0: 项目结构
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+
+```
+- oneManage-gateway
+- oneManage-auth
+- oneManage-apis
+- oneManage-modules
+    - oneManage-generate
+    - oneManage-log
+    - oneManage-quratz
+    - oneManage-system
+- oneManage-monitor
+- oneManage-starter
+    - commons-spring-boot-starter
+    - db-spring-boot-starter
+    - es-spring-boot-starter
+    - kafka-spring-boot-starter
+    - microservice-spring-boot-starter
+    - redis-spring-boot-starter
+
+```
+
 
 
 ####  :tw-1f4f7: 系统截图
