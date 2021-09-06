@@ -32,22 +32,22 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 
 
 ```
-- oneManage-gateway
-- oneManage-auth
-- oneManage-apis
-- oneManage-modules
-    - oneManage-generate
-    - oneManage-log
-    - oneManage-quratz
-    - oneManage-system
-- oneManage-monitor
-- oneManage-starter
-    - commons-spring-boot-starter
-    - db-spring-boot-starter
-    - es-spring-boot-starter
-    - kafka-spring-boot-starter
-    - microservice-spring-boot-starter
-    - redis-spring-boot-starter
+- oneManage-gateway   网关模块
+- oneManage-auth      登录权限认证模块
+- oneManage-apis      微服务调用api接口模块
+- oneManage-modules   业务模块
+    - oneManage-generate    代码生成模块
+    - oneManage-log         系统日志模块
+    - oneManage-quratz      定时任务模块
+    - oneManage-system      系统内置功能模块
+- oneManage-monitor    系统监控模块
+- oneManage-starter    系统启动模块
+    - commons-spring-boot-starter       通用项目启动模块
+    - db-spring-boot-starter            db项目启动模块
+    - es-spring-boot-starter            es项目启动模块
+    - kafka-spring-boot-starter         kafka项目启动模块
+    - microservice-spring-boot-starter  微服务项目启动模块
+    - redis-spring-boot-starter         redis项目启动模块
 
 ```
 
