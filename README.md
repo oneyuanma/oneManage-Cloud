@@ -23,9 +23,19 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 |  用户管理 |  内部人员的管理和维护 |  :tw-2705:   |
 |  角色管理 |  用于对系统角色进行维护，角色权限分配等 |  :tw-2705: |
 |  资源管理 |  对系统菜单，按钮，权限进行管理 |  :tw-2705: |
-|  KV管理 |   |   |
-|   |   |   |
-|   |   |   |
+|  KV管理 |  键值对管理，相当于提供给用户的配置管理 |  :tw-2705: |
+|  登录日志 |  详细的记录系统日常登录、登出日志数据 | :tw-2705:  |
+|  操作日志 |  记录用户的操作行为，记录了参数，以便数据补偿 | :tw-2705:  |
+|  任务管理 |  定时任务调用的增删改查和预执行 | :tw-2705:  |
+|  字典管理|  系统中常规的常量进行管理和维护 | :tw-1f6a7:  |
+|  代码生成 |  简单配置快速生成后台和前端代码，免去重复工作 | :tw-2705:  |
+|  流程审批|  流程审批管理，OA必备 | :tw-1f6a7: |
+|  服务监控 |  监控服务的健康，运行等状态 | :tw-2705:  |
+|  注册中心 |  consul注册中心，方便查看服务的注册情况 | :tw-2705:  |
+|  kafka监控 |  监控kafka状态，使用情况等 |  :tw-1f6a7:   |
+|  redis监控 |  监控redis状态，使用情况等  | :tw-1f6a7:  |
+|  rocketMQ监控 |  监控rocketMQ状态，使用情况等 | :tw-1f6a7:  |
+|  连接池监控|  监控数据库连接池状态，优化SQL | :tw-1f6a7:  |
 
 
 ####  :tw-1f4a0: 项目结构
@@ -55,9 +65,4 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 
 ####  :tw-1f4f7: 系统截图
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
