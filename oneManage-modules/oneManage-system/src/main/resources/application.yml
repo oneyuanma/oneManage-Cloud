@@ -12,7 +12,7 @@ swagger:
 ## ES 配置
 elasticsearch:
   enabled: true
-  host: 127.0.0.1:9200
+  host: ${commons.middleware.ip}:9200
   username:
   password:
 

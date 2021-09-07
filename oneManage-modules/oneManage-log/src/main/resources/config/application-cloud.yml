@@ -3,7 +3,7 @@ spring:
   cloud:
     # 微服务相关配置
     consul:
-      host: 127.0.0.1
+      host: ${commons.middleware.ip}
       port: 8500
       discovery:
         tags: oym

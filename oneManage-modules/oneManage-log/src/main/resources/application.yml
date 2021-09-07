@@ -5,7 +5,7 @@ server:
 # ES 配置
 elasticsearch:
   enabled: true
-  host: 127.0.0.1:9200
+  host: ${commons.middleware.ip}:9200
   username:
   password:
 
@@ -27,6 +27,9 @@ spring:
           prefer-ip: true
 
 management:
+  health:
+    elasticsearch:
+      enabled: false
   endpoints:
     web:
       exposure:

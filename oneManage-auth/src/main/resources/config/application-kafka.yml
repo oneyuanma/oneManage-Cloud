@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: 127.0.0.1:9092
+    bootstrap-servers: ${commons.middleware.ip}:9092
     producer:
       # 发生错误后，消息重发的次数。
       retries: 0

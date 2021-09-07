@@ -8,7 +8,7 @@ spring:
   cloud:
     # 微服务相关配置
     consul:
-      host: 127.0.0.1
+      host: ${commons.middleware.ip}
       port: 8500
       discovery:
         tags: oym
@@ -32,6 +32,7 @@ spring:
         health-check-path: /actuator/health
         # 服务注册标识，格式为：应用名称+服务器IP+端口
         instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+
 
 ribbon:
   # 对所有操作请求都进行重试,默认false

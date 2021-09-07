@@ -3,3 +3,8 @@ logging:
   config: classpath:logback-spring.xml
 log:
   path: /Users/jinjing/code/IdeaProjects/oneyuanma/oneManage-Cloud/logs
+
+commons:
+  middleware:
+    # 中间件ip,用于统一定义中间所在ip
+    ip: 127.0.0.1
