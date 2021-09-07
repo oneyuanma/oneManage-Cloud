@@ -48,6 +48,6 @@ export function get(query) {
   return request({
     url: '/oneManage-system/kv/get',
     method: 'post',
-    query: query
+    data: query
   })
 }

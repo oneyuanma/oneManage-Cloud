@@ -1,6 +1,5 @@
 package com.oym.system.ctrl.request;
 
-import com.oym.commons.base.request.PageAbstractQuery;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -13,7 +12,7 @@ import lombok.Data;
  */
 @Data
 @ApiModel(description = "根据键获取值 Request")
-public class GetKvRequest extends PageAbstractQuery {
+public class GetKvRequest {
 
     private static final long serialVersionUID = 8218658927355870227L;
 
