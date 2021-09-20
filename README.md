@@ -11,6 +11,7 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 
 账号密码： admin / admin
 
+one源码官网：https://www.oneyuanma.com
 
 ####  :tw-26ea: 系统架构
 
