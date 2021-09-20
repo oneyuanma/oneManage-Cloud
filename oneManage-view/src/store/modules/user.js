@@ -83,7 +83,7 @@ const actions = {
 
         // 角色必须是非空数组
         if (!roles || roles.length <= 0) {
-          reject('当前用户没有角色权限，请联系管理员!')
+          reject('当前用户没有菜单权限，请联系管理员!')
         }
 
         if (menus && menus.length > 0) { // 验证返回的menus是否是一个非空数组
