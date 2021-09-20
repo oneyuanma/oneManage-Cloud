@@ -26,7 +26,6 @@ import org.zxp.esclientrhl.annotation.EnableESTools;
 @SpringBootApplication(scanBasePackages = {"com.oym.*"})
 @ImportAutoConfiguration({ SwaggerConfiguration.class})
 @MapperScan(annotationClass = Repository.class, basePackages = "com.oym.system.dao")
-@EnableAspectJAutoProxy(proxyTargetClass = true)
 public class SystemRun {
 
     public static void main(String[] args) {

@@ -5,6 +5,12 @@ import org.quartz.JobExecutionException;
 
 import java.util.Date;
 
+/**
+ * 定时任务demo
+ *
+ * @author oneyuanma
+ * @date 2021/08/17
+ */
 public class JobDemo implements BaseJob {
 
     @Override

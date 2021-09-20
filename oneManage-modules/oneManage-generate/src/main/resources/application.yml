@@ -9,7 +9,7 @@ swagger:
   description: 系统代码生成功能api文档
   version: 1.0.1
 
-# 表同步默认配置
+# 代码生成默认配置
 generate:
   config:
     # 作者
