@@ -5,9 +5,9 @@ oneManage微服务版本，基于SpringCloud+vue，是一套简单通用前后�
 
 ####  :tw-1f4fa: 系统演示
 
-开发文档：http://doc.oneyuanma.com/
+开发文档：[http://doc.oneyuanma.com/](http://278n35q588.oicp.vip:31711/)
 
-演示地址：http://1.15.184.186
+演示地址：[http://1.15.184.186](http://278n35q588.oicp.vip:31712)
 
 账号密码： admin / admin
 
